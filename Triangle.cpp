@@ -9,6 +9,17 @@ Triangle::Triangle(int newWidth, int newHeight){
 
 }
 
+void Triangle::setWidth(int newWidth){
+    width = newWidth;
+
+}
+
+
+void Triangle::setHeight(int newHeight){
+    height = newHeight;
+
+}
+
 int Triangle::getArea(){return width*height/2;}
 
 void Triangle::draw(){

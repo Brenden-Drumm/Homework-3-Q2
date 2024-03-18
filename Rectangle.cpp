@@ -9,6 +9,17 @@ Rectangle::Rectangle(int newWidth, int newHeight){
 
 }
 
+void Rectangle::setWidth(int newWidth){
+    width = newWidth;
+
+}
+
+
+void Rectangle::setHeight(int newHeight){
+    height = newHeight;
+
+}
+
 int Rectangle::getArea(){return width*height;}
 
 void Rectangle::draw(){
